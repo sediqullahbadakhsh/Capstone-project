@@ -36,3 +36,7 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
+
+## Design Credits
+
+- Design: [@Cindy Shin in Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
