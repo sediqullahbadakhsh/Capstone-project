@@ -382,82 +382,117 @@ footer p {
   text-align: center;
 }
 #about .ad-det {
-  padding: 12px;
+  font-size: 14px;
+  padding: 20px 0 0 0;
   font-size: 11px;
   line-height: 1.2rem;
   text-align: center;
 }
 
-/******Main program Section******/
-#main-program {
-  background-image: url(./assets/images/pattern_bg.png);
-  background-color: var(--primary-color);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
+#about .about-email {
+  font-family: var(--secondary-color);
+  text-align: center;
+  font-weight: 700;
+  text-decoration: underline;
 }
 
-#main-program .title {
-  font-size: 20px;
-  font-weight: 700;
-  text-align: center;
-  color: var(--tertiary-color);
-  padding-top: 10px;
-  padding-bottom: 10px;
+/******story section****/
+#co-logo {
+  background-color: var(--tertiary-color);
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
 }
-#main-program hr {
-  width: 40px;
+#co-logo h3 {
+  font-family: var(--secondary-font);
+  text-align: center;
+  width: 60%;
+}
+#co-logo hr {
+  width: 30px;
+  background-color: var(--secondary-color);
+  height: 2px;
+  margin: -20px 0;
+}
+#co-logo .desktop {
+  display: none;
+}
+#co-logo .mobile {
+  text-align: center;
+  font-size: 14px;
+}
+#co-logo img {
+  border: solid 2px #fff;
+  padding: 30px 90px;
+}
+
+/****Events****/
+
+#events-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px;
+  align-items: center;
+}
+#events-container h3 {
+  font-family: var(--secondary-font);
+  text-align: center;
+}
+#events-container hr {
+  width: 30px;
   background-color: var(--secondary-color);
   height: 2px;
   border: none;
 }
-.main-program {
+#events-container p {
+  font-size: 14px;
+  text-align: center;
+  color: var(--primary-color);
+}
+.events {
   display: grid;
   grid-template-columns: 1fr;
   row-gap: 20px;
-  padding-top: 40px;
-  padding-bottom: 20px;
-}
-.main-program div {
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
-  background-color: rgba(204, 204, 204, 0.1);
-  align-items: center;
-  padding: 20px;
-}
-.main-program img {
-  width: 30px;
-  height: auto;
-  flex: 0.5 1 0;
-}
-.main-program h3 {
-  color: var(--secondary-color);
-  flex: 1.2 1 0;
-  font-size: 12px;
-  font-weight: 800;
-}
-.main-program p {
-  color: var(--tertiary-color);
-  flex: 3 1 0;
-  font-size: 12px;
-}
-#main-program .desk {
-  display: none;
-  cursor: pointer;
-}
-#main-program .mob {
-  padding: 20px;
-  text-align: center;
-  color: var(--tertiary-color);
-  background-color: var(--secondary-color);
-  margin: 20px 0;
-  font-weight: 600;
-  font-size: 12px;
-  cursor: pointer;
 }
 
+.events div {
+  padding: 0;
+  color: var(--tertiary-color);
+  position: relative;
+}
+.events div:before {
+  background-color: rgba(233, 30, 30, 0.658);
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+.event1 {
+  background: url(/assets/images/event1.jpg);
+  background-size: contain;
+  z-index: 2;
+}
+.event-title {
+  padding-top: 50px;
+  font-size: 30px;
+  color: #fff;
+}
+.event-details {
+  padding: 10px 30px 50px 30px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.event2 {
+  background-image: url(/assets/images/event2.jpg);
+  background-size: contain;
+  z-index: 2;
+}
 /******Bigger Screen******/
 @media screen and (min-width: 768px) {
   /*************header*************/
