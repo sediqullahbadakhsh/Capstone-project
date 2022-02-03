@@ -1,10 +1,10 @@
 # Capstone Project
 
-> Capstone Project 5th block of the first Module.
+> A Website for the Creative Commons Global Summits 2022.
+
 > ![Mobile screenshot](./assets/images/mob-screenshot.jpg).
 > ![Desktop screenshot](./assets/images/desk-screenshot.jpg).
-
-In this Project, I used HTML and CSS (Media, Transition, flexbox, Grid and more)
+> ![Video Demo](https://www.loom.com/share/1ec6e7d271844aaeb2c86ea3a5b27876)
 
 ## Built With
 
@@ -16,6 +16,24 @@ In this Project, I used HTML and CSS (Media, Transition, flexbox, Grid and more)
 
 - [Capstone-Project](https://sediqullahbadakhsh.github.io/capstone-project/).
 
+## Getting Started
+
+### Prerequisites
+
+> Please Make sure to have upto date Browsers inorder to find the pages fully functional.
+
+### Setup
+
+> Inorder to setup the project, required to have a Hosting as well as Domain name.
+
+### Install
+
+> Please Download the entire Directory from [here](https://github.com/sediqullahbadakhsh/capstone-project/), and upload it on your Domain Cpanel.
+
+### Usage
+
+> It's a website describes everyear events held on behlaf of Creative Commons Global Summits.
+
 ## Authors
 
 👤 **Sediqullah Badakhsh**
@@ -26,9 +44,7 @@ In this Project, I used HTML and CSS (Media, Transition, flexbox, Grid and more)
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [Badakhsh-Portfolio](https://sediqullahbadakhsh.github.io/badakhsh-portfolio/).
+Contributions, issues, and feature requests are welcomed, [Here](https://github.com/sediqullahbadakhsh/Capstone-project/issues/).
 
 ## Show your support
 

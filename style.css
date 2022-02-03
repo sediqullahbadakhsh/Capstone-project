@@ -24,13 +24,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: var(--secondary-font);
-
-  /* color: var(--primary-color); */
 }
-
-/* hmtl {
-  overflow-x: hidden;
-} */
 
 /*************  Header Section  ********/
 .header {
@@ -40,6 +34,7 @@
 /**********  Navbar Section  **********/
 #navbar {
   position: fixed;
+  z-index: 99;
   width: 70%;
   height: 100vh;
   background-color: var(--tertiary-color);
@@ -636,6 +631,10 @@
     font-weight: 600;
   }
 
+  .home-page {
+    display: none;
+  }
+
   .focused {
     padding: 10px !important;
     margin: 0;
@@ -766,9 +765,21 @@
   }
 
   /******  Partners  *******/
+  #partner {
+    padding: 30px;
+  }
 
   .partner {
     gap: 50px;
+  }
+
+  #footer {
+    padding: 50px;
+    justify-content: space-evenly;
+  }
+
+  #footer p {
+    width: auto;
   }
 
   /*********  About Page  ********/
