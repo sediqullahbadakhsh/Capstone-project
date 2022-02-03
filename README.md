@@ -2,9 +2,9 @@
 
 > A Website for the Creative Commons Global Summits 2022.
 
-> ![Mobile screenshot](./assets/images/mob-screenshot.jpg).
-> ![Desktop screenshot](./assets/images/desk-screenshot.jpg).
-> ![Video Demo](https://www.loom.com/share/1ec6e7d271844aaeb2c86ea3a5b27876)
+- ![Mobile screenshot](./assets/images/mob-screen.jpg).
+- ![Desktop screenshot](./assets/images/desk-screen.jpg).
+- [Video Demo](https://www.loom.com/share/1ec6e7d271844aaeb2c86ea3a5b27876)
 
 ## Built With
 
@@ -14,7 +14,7 @@
 
 ## Live Demo
 
-- [Capstone-Project](https://sediqullahbadakhsh.github.io/capstone-project/).
+- [Capstone-Project](https://sediqullahbadakhsh.github.io/Capstone-project/).
 
 ## Getting Started
 
