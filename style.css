@@ -125,6 +125,23 @@
   padding: 50px 20px;
 }
 
+.quick-link {
+  position: absolute;
+  top: 18%;
+  left: 85%;
+  display: none;
+}
+
+.quick-link span {
+  color: var(--secondary-color);
+}
+
+.quick-link .top-link {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: 12px;
+}
+
 .intro h2 {
   padding-top: 70px;
   color: var(--secondary-color);
@@ -597,6 +614,7 @@
   }
 
   /*****  navbar  ****/
+
   #navbar {
     position: static;
     display: flex;
@@ -609,6 +627,10 @@
     padding: 0 10%;
     align-items: center;
     box-shadow: none;
+  }
+
+  .quick-link {
+    display: block;
   }
 
   .logo {
