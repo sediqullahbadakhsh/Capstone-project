@@ -2,19 +2,6 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-YJ2WSX508J"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-      gtag("config", "G-YJ2WSX508J");
-    </script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="badakhsh portfolio, portfolio" />
@@ -22,19 +9,162 @@
     <!-- Links -->
     <link href="style.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="project icon"
+      href="./assets/logos/Logo.png"
+      type="image/x-icon"
+    />
 
     <!-- Project Title -->
     <title>Capstone Project</title>
   </head>
   <body>
-    <header></header>
-    <main></main>
+    <header>
+      <!--Header section-->
+      <div class="header">
+        <div class="quicklink social">
+          <a href="#"
+            ><img src="assets/logos/linkedinicon.png" alt="linked In Icon"
+          /></a>
+        </div>
+        <div class="quicklink social">
+          <a href="#"
+            ><img src="assets/logos/Twitter.png" alt="twitter logo"
+          /></a>
+        </div>
+        <div class="quicklink">
+          <p><a href="#">English</a></p>
+        </div>
+        <div class="quicklink">
+          <p><a href="#">My Page</a></p>
+        </div>
+        <div class="quicklink">
+          <p><a href="#">Logout</a></p>
+        </div>
+      </div>
+      <!-- Navbar Section -->
+      <div class="humberger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+      <div id="navbar" class="navbar">
+        <div class="logo">
+          <a href="index.html"
+            ><img src="assets/logos/Logo.png" alt="Page logo"
+          /></a>
+        </div>
+        <ul>
+          <li class="links home-page"><a href="index.html">Home</a></li>
+          <li class="links"><a href="about.html">About </a></li>
+          <li class="links"><a href="#">Program</a></li>
+          <li class="links"><a href="#">Join</a></li>
+          <li class="links"><a href="#">Sponsor</a></li>
+          <li class="links last-link"><a href="#">News</a></li>
+          <li class="links focused"><a href="#">CC Campaign</a></li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <!--Intro Section-->
+      <section id="intro" class="intro">
+        <h2>"Hello! Sharing world"</h2>
+        <h1>creative commons global summit 2022</h1>
+        <p class="bio">
+          A joyful celebration believing in the value of openness and sharing,
+          creating a positive change with people from over 80 countries is
+          taking place in October, in Korea.
+        </p>
+        <p class="time">2022.10.15(thu) ~ 16(fri)</p>
+        <p class="address">
+          @ National Museum of Korea, Art Center Nabi and more
+        </p>
+      </section>
 
+      <!--Main Program Section-->
+      <section id="main-program">
+        <p class="title">Main Program</p>
+        <hr />
+        <div class="main-program">
+          <div class="lecture">
+            <img src="./assets/logos/p5.png" alt="lecture logo" />
+            <h3>Lecture</h3>
+            <p>
+              listen to the speakers from various countries about the messeges
+              of sharing and opening.
+            </p>
+          </div>
+          <div class="ccexhibition">
+            <img src="./assets/logos/p1.png" alt="cc Exhibition logo" />
+            <h3>CC Exhibition</h3>
+            <p>
+              Appreciate various creations applying CC license of artists,
+              organized from Art Center Nabi.
+            </p>
+          </div>
+          <div class="forum">
+            <img src="./assets/logos/p2.png" alt="Forum logo" />
+            <h3>Forum</h3>
+            <p>
+              Have the time to share your thoughts and opinions with experts for
+              each topic.
+            </p>
+          </div>
+          <div class="workshop">
+            <img src="./assets/logos/p3.png" alt="workshop logo" />
+            <h3>Workshop</h3>
+            <p>
+              try creating your own work using open source license rather than
+              just watching at it.
+            </p>
+          </div>
+          <div class="ccignite">
+            <img src="./assets/logos/p4.png" alt="cc ignite logo" />
+            <h3>CC Ignite</h3>
+            <p>
+              Get opportunities to network with CC affiliates around the world,
+              also after the summit.
+            </p>
+          </div>
+        </div>
+        <p class="desk">See the whole program</p>
+        <p class="mob">Join CC Global Summit 2022</p>
+      </section>
+      <!--Featured Speakers Section-->
+      <section id="featured-speaker">
+        <div id="speakers"></div>
+      </section>
+      <!--Partners Section-->
+      <section id="partner">
+        <p class="title">Partners</p>
+        <hr />
+        <div class="partner">
+          <div class="partners">
+            <img src="./assets/logos/amazon.png" alt="amazon logo" />
+          </div>
+          <div class="partners">
+            <img src="./assets/logos/deezer.png" alt="deezer logo" />
+          </div>
+          <div class="partners">
+            <img src="./assets/logos/linkedin.png" alt="linkedin logo" />
+          </div>
+          <div class="partners">
+            <img src="./assets/logos/paypal.png" alt="paypal logo" />
+          </div>
+          <div class="partners">
+            <img src="./assets/logos/airbnb.png" alt="airbnb logo" />
+          </div>
+        </div>
+      </section>
+      <!--Footer Section-->
+      <footer id="footer" class="white">
+        <a href="index.html">
+          <img src="./assets/logos/Logo.png" alt="page logo"
+        /></a>
+        <p>2022 Creative Commons Korea. Some Rights Reserved.</p>
+      </footer>
+    </main>
     <!-- Scripts -->
     <script src="app.js"></script>
-    <script
-      src="https://kit.fontawesome.com/3d2d618d62.js"
-      crossorigin="anonymous"
-    ></script>
   </body>
 </html>
