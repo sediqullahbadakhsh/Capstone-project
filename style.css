@@ -1,4 +1,4 @@
-/*************Setup*************/
+/*************  Setup  *************/
 
 :root {
   --primary-color: #272a31;
@@ -8,32 +8,36 @@
   --secondary-font: "Lato", sans-serif;
   --tertiary-font: primary-light;
 }
+
 @font-face {
   font-family: primary-bold;
-  src: url(fonts/cocogoosePro-trial.ttf);
+  src: url("fonts/cocogoosePro-trial.ttf");
 }
+
 @font-face {
   font-family: primary-light;
-  src: url(fonts/cocogooseProUltralight-trial.ttf);
+  src: url("fonts/cocogooseProUltralight-trial.ttf");
 }
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: var(--secondary-font);
+
   /* color: var(--primary-color); */
 }
 
-hmtl {
+/* hmtl {
   overflow-x: hidden;
-}
+} */
 
-/*************Header Section********/
+/*************  Header Section  ********/
 .header {
   display: none;
 }
 
-/**********Navbar Section**********/
+/**********  Navbar Section  **********/
 #navbar {
   position: fixed;
   width: 70%;
@@ -43,6 +47,7 @@ hmtl {
   transform: translateX(-102%);
   transition: transform 0.5s ease-in;
 }
+
 .nav-active {
   transform: translateX(0) !important;
 }
@@ -61,14 +66,16 @@ hmtl {
   list-style-type: none;
   color: var(--primary-color);
   font-weight: 600;
-  padding: 20px 10px 20px 10px;
+  padding: 20px 10px;
   border-bottom: solid var(--secondary-color) 3px;
   font-size: 22px;
 }
+
 #navbar ul li a {
   text-decoration: none;
   color: var(--primary-color);
 }
+
 #navbar ul li a:hover {
   color: var(--secondary-color);
 }
@@ -76,6 +83,7 @@ hmtl {
 .last-link {
   border: none !important;
 }
+
 .focused {
   text-align: center;
   margin-top: 40px;
@@ -84,13 +92,14 @@ hmtl {
   font-weight: 700;
   box-shadow: 5px 5px 15px var(--primary-color);
 }
+
 .humberger {
   position: fixed;
-  padding-bottom: 70px;
   z-index: 9999;
   padding: 30px;
   cursor: pointer;
 }
+
 .humberger div {
   width: 35px;
   background-color: var(--primary-color);
@@ -112,7 +121,7 @@ hmtl {
   transform: rotate(45deg) translate(-10px, -10px);
 }
 
-/************Intro Section************/
+/************  Intro Section  ************/
 
 .intro {
   background-image: url("./assets/images/desktopbg.jpg");
@@ -127,6 +136,7 @@ hmtl {
   font-size: 20px;
   font-weight: 400;
 }
+
 .intro h1 {
   padding-top: 5px;
   font-family: var(--secondary-font);
@@ -137,6 +147,7 @@ hmtl {
   padding-bottom: 30px;
   line-height: 2rem;
 }
+
 .intro .bio {
   border: solid 3px #fff;
   background-color: var(--tertiary-color);
@@ -145,6 +156,7 @@ hmtl {
   font-size: 12px;
   line-height: 1.2rem;
 }
+
 .intro .time {
   font-family: var(--secondary-font);
   font-weight: 800;
@@ -159,9 +171,10 @@ hmtl {
   font-size: 13px;
   padding-bottom: 70px;
 }
-/******Main program Section******/
+
+/******  Main program Section  ******/
 #main-program {
-  background-image: url(./assets/images/pattern_bg.png);
+  background-image: url("./assets/images/pattern_bg.png");
   background-color: var(--primary-color);
   display: flex;
   flex-direction: column;
@@ -177,12 +190,14 @@ hmtl {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
 #main-program hr {
   width: 40px;
   background-color: var(--secondary-color);
   height: 2px;
   border: none;
 }
+
 .main-program {
   display: grid;
   grid-template-columns: 1fr;
@@ -190,34 +205,40 @@ hmtl {
   padding-top: 40px;
   padding-bottom: 20px;
 }
+
 .main-program div {
   display: flex;
   flex-direction: row;
   gap: 20px;
-  background-color: rgba(204, 204, 204, 0.1);
+  background-color: rgb(204 204 204 / 10%);
   align-items: center;
   padding: 20px;
 }
+
 .main-program img {
   width: 30px;
   height: auto;
   flex: 0.5 1 0;
 }
+
 .main-program h3 {
   color: var(--secondary-color);
   flex: 1.2 1 0;
   font-size: 12px;
   font-weight: 800;
 }
+
 .main-program p {
   color: var(--tertiary-color);
   flex: 3 1 0;
   font-size: 12px;
 }
+
 #main-program .desk {
   display: none;
   cursor: pointer;
 }
+
 #main-program .mob {
   padding: 20px;
   text-align: center;
@@ -229,19 +250,21 @@ hmtl {
   cursor: pointer;
 }
 
-/******Featured Speakers*********/
+/******  Featured Speakers  *********/
 #featured-speaker {
   display: flex;
   flex-direction: column;
   padding: 30px 20px;
   align-items: center;
 }
+
 .titlesection {
   order: -1;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 #featured-speaker .title {
   font-family: var(--secondary-font);
   font-size: 20px;
@@ -249,6 +272,7 @@ hmtl {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
 #featured-speaker hr {
   width: 40px;
   background-color: var(--secondary-color);
@@ -256,6 +280,7 @@ hmtl {
   border: none;
   margin-bottom: 20px;
 }
+
 #speakers {
   display: grid;
   grid-template-columns: 1fr;
@@ -266,31 +291,37 @@ hmtl {
   display: flex;
   gap: 15px;
 }
+
 .grid-item img {
   height: 120px;
-  background-image: url(/assets/images/patern.png);
+  background-image: url("/assets/images/patern.png");
   background-size: 70px;
   background-repeat: no-repeat;
   padding: 15px 0 0 15px;
 }
+
 .speaker h4 {
   font-family: var(--secondary-font);
   font-size: 15px;
 }
+
 .profession {
   font-size: 14px;
   color: var(--secondary-color);
 }
+
 .divider {
   background-color: var(--tertiary-color);
   height: 2px;
   width: 30px;
   margin: 10px 0;
 }
+
 .speaker .description {
   font-size: 12px;
 }
-/******Partners*******/
+
+/******  Partners  *******/
 #partner {
   background-color: var(--primary-color);
   display: flex;
@@ -327,28 +358,31 @@ hmtl {
   cursor: pointer;
 }
 
-/******Footer Section****/
+/******  Footer Section  ****/
 
-footer {
+#footer {
   background-color: var(--tertiary-color);
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 30px;
 }
-footer img {
+
+#footer img {
   width: 80px;
 }
-footer p {
+
+#footer p {
   font-size: 12px;
   width: 60%;
 }
 
-/*********About Page********/
-/**intro Section**/
+/*********  About Page  ********/
+
+/**  intro Section  **/
 
 #about {
-  background-image: url("./assets/images/mobilebg.jpg");
+  background-image: url("./assets/images/desktopbg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 50px 20px;
@@ -361,6 +395,7 @@ footer p {
   font-weight: 400;
   text-align: center;
 }
+
 #about h1 {
   padding-top: 5px;
   font-family: var(--secondary-font);
@@ -372,6 +407,7 @@ footer p {
   line-height: 2rem;
   text-align: center;
 }
+
 #about .bio {
   border: solid 3px #fff;
   background-color: var(--tertiary-color);
@@ -381,10 +417,10 @@ footer p {
   line-height: 1.2rem;
   text-align: center;
 }
+
 #about .ad-det {
   font-size: 14px;
-  padding: 20px 0 0 0;
-  font-size: 11px;
+  padding: 20px 0 0;
   line-height: 1.2rem;
   text-align: center;
 }
@@ -396,7 +432,7 @@ footer p {
   text-decoration: underline;
 }
 
-/******story section****/
+/******  story section  ****/
 #co-logo {
   background-color: var(--tertiary-color);
   padding: 30px 20px;
@@ -405,30 +441,36 @@ footer p {
   gap: 30px;
   align-items: center;
 }
+
 #co-logo h3 {
   font-family: var(--secondary-font);
   text-align: center;
   width: 60%;
 }
+
 #co-logo hr {
   width: 30px;
   background-color: var(--secondary-color);
   height: 2px;
   margin: -20px 0;
+  border: none;
 }
+
 #co-logo .desktop {
   display: none;
 }
+
 #co-logo .mobile {
   text-align: center;
   font-size: 14px;
 }
+
 #co-logo img {
   border: solid 2px #fff;
   padding: 30px 90px;
 }
 
-/****Events****/
+/****  Events  ****/
 
 #events-container {
   display: flex;
@@ -437,21 +479,26 @@ footer p {
   padding: 40px;
   align-items: center;
 }
+
 #events-container h3 {
   font-family: var(--secondary-font);
   text-align: center;
 }
+
 #events-container hr {
   width: 30px;
   background-color: var(--secondary-color);
   height: 2px;
   border: none;
 }
+
 #events-container p {
   font-size: 14px;
   text-align: center;
   color: var(--primary-color);
+  color: #fff;
 }
+
 .events {
   display: grid;
   grid-template-columns: 1fr;
@@ -463,8 +510,9 @@ footer p {
   color: var(--tertiary-color);
   position: relative;
 }
-.events div:before {
-  background-color: rgba(233, 30, 30, 0.658);
+
+.events div::before {
+  background-color: rgb(233 30 30 / 65.8%);
   content: "";
   display: block;
   height: 100%;
@@ -472,30 +520,34 @@ footer p {
   width: 100%;
   z-index: -1;
 }
+
 .event1 {
-  background: url(/assets/images/event1.jpg);
-  background-size: contain;
+  background: url("/assets/images/event1.jpg");
+  background-size: cover;
   z-index: 2;
 }
+
 .event-title {
   padding-top: 50px;
   font-size: 30px;
   color: #fff;
 }
+
 .event-details {
-  padding: 10px 30px 50px 30px;
+  padding: 10px 30px 50px;
   font-size: 20px;
   color: #fff;
 }
 
 .event2 {
-  background-image: url(/assets/images/event2.jpg);
-  background-size: contain;
+  background-image: url("/assets/images/event2.jpg");
+  background-size: cover;
   z-index: 2;
 }
-/******Bigger Screen******/
+
+/******  Bigger Screen  ******/
 @media screen and (min-width: 768px) {
-  /*************header*************/
+  /*************  header  *************/
   .header {
     display: flex;
     padding-right: 12%;
@@ -507,21 +559,49 @@ footer p {
     font-family: var(--tertiary-font);
     font-weight: 600;
   }
+
   .header a {
     text-decoration: none;
     color: #fff;
     font-size: 14px;
   }
+
   .header a:hover {
     color: var(--secondary-color);
   }
+
+  .logo img {
+    width: 70px;
+  }
+
   .social img {
     width: 25px;
   }
+
+  .main-program img {
+    width: 30px;
+    height: auto;
+  }
+
+  .grid-item img {
+    height: 150px;
+    background-image: url("/assets/images/patern.png");
+    background-size: 70px;
+    background-repeat: no-repeat;
+    padding: 15px 0 0 15px;
+  }
+
+  .partner img {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 80px;
+  }
+
   .social img:hover {
     background-color: var(--secondary-color);
   }
-  /*****navbar****/
+
+  /*****  navbar  ****/
   #navbar {
     position: static;
     display: flex;
@@ -540,42 +620,43 @@ footer p {
     display: block;
     width: 70px;
   }
-  .logo img {
-    width: 70px;
-  }
 
   #navbar ul {
     display: flex;
     align-items: center;
     flex-direction: row;
     padding: 20px 0;
-    gap: 20px;
+    gap: 30px;
   }
+
   #navbar ul li {
     border: none;
-    font-size: 22px;
     padding: 0;
     font-size: 14px;
     font-weight: 600;
   }
+
   .focused {
     padding: 10px !important;
     margin: 0;
     box-shadow: none;
     border: solid 2px var(--secondary-color) !important;
   }
+
   .focused:hover {
     border: none;
     color: var(--tertiary-color);
   }
+
   .humberger {
     display: none;
   }
+
   .humberger div {
     display: none;
   }
 
-  /************Intro Section************/
+  /************  Intro Section  ************/
 
   .intro {
     height: auto;
@@ -586,16 +667,19 @@ footer p {
     padding-top: 50px;
     font-size: 34px;
   }
+
   .intro h1 {
     width: 80%;
     font-size: 56px;
     line-height: 3.5rem;
   }
+
   .intro .bio {
     width: 65%;
     font-size: 16px;
     line-height: 1.5rem;
   }
+
   .intro .time {
     font-weight: 800;
     font-size: 28px;
@@ -607,9 +691,10 @@ footer p {
     font-size: 18px;
     padding-bottom: 70px;
   }
-  /******Main program Section******/
+
+  /******  Main program Section  ******/
   #main-program {
-    padding: 20px 50px 50px 50px;
+    padding: 20px 50px 50px;
   }
 
   #main-program .title {
@@ -618,11 +703,13 @@ footer p {
     padding-top: 20px;
     padding-bottom: 10px;
   }
+
   .main-program {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     column-gap: 3px;
   }
+
   .main-program div {
     display: grid;
     align-items: start;
@@ -630,26 +717,25 @@ footer p {
     justify-items: center;
     grid-template-rows: 20px 10px auto;
   }
+
   .main-program div:hover {
     border: solid 3px var(--tertiary-color);
   }
-  .main-program img {
-    width: 30px;
-    height: auto;
-    /* flex: 0.5 1 0; */
-  }
+
   .main-program h3 {
     color: var(--secondary-color);
+
     /* flex: 1.2 1 0; */
     font-size: 12px;
     font-weight: 800;
   }
+
   .main-program p {
     color: var(--tertiary-color);
-    /* flex: 3 1 0; */
     font-size: 12px;
     text-align: center;
   }
+
   #main-program .desk {
     display: block;
     padding-top: 20px;
@@ -659,11 +745,12 @@ footer p {
     font-weight: 600;
     font-size: 14px;
   }
+
   #main-program .mob {
     display: none;
   }
 
-  /******Featured Speaker*******/
+  /******  Featured Speaker  *******/
   #featured-speaker {
     padding: 30px 120px;
   }
@@ -673,25 +760,43 @@ footer p {
     grid-template-columns: 1fr 1fr;
     padding-bottom: 20px;
   }
+
   .grid-item h4 {
     margin-top: 15px;
   }
 
-  .grid-item img {
-    height: 150px;
-    background-image: url(/assets/images/patern.png);
-    background-size: 70px;
-    background-repeat: no-repeat;
-    padding: 15px 0 0 15px;
-  }
-  /******Partners*******/
+  /******  Partners  *******/
 
-  .partner img {
-    padding-top: 20px;
-    padding-bottom: 10px;
-    width: 80px;
-  }
   .partner {
     gap: 50px;
+  }
+
+  /*********  About Page  ********/
+
+  /**  intro Section  **/
+
+  .about-me {
+    padding: 50px 80px 40px 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #about h2 {
+    display: none;
+  }
+
+  #about h1 {
+    max-width: 380px;
+    align-self: center;
+  }
+
+  #about .bio {
+    max-width: 600px;
+  }
+
+  .events {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
   }
 }

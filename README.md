@@ -1,7 +1,8 @@
 # Capstone Project
 
 > Capstone Project 5th block of the first Module.
-> ![screenshot](./image/screenshot.png)
+> ![Mobile screenshot](./assets/images/mob-screenshot.jpg).
+> ![Desktop screenshot](./assets/images/desk-screenshot.jpg).
 
 In this Project, I used HTML and CSS (Media, Transition, flexbox, Grid and more)
 
@@ -13,7 +14,7 @@ In this Project, I used HTML and CSS (Media, Transition, flexbox, Grid and more)
 
 ## Live Demo
 
-- [Capstone-Project](https://sediqullahbadakhsh.github.io/badakhsh-portfolio/).
+- [Capstone-Project](https://sediqullahbadakhsh.github.io/capstone-project/).
 
 ## Authors
 
