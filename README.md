@@ -2,9 +2,9 @@
 
 > A Website for the Creative Commons Global Summits 2022.
 
-> ![Mobile screenshot](./assets/images/mob-screenshot.jpg).
-> ![Desktop screenshot](./assets/images/desk-screenshot.jpg).
-> ![Video Demo](https://www.loom.com/share/1ec6e7d271844aaeb2c86ea3a5b27876)
+> ![Mobile screenshot](assets/images/mob-screenshot.jpg).
+> ![Desktop screenshot](assets/images/desk-screenshot.jpg).
+> [Features through Demo](https://www.loom.com/share/1ec6e7d271844aaeb2c86ea3a5b27876)
 
 ## Built With
 
