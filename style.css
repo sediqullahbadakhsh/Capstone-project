@@ -306,7 +306,7 @@
 
 .grid-item img {
   height: 120px;
-  background-image: url("/assets/images/patern.png");
+  background-image: url("./assets/images/patern.png");
   background-size: 70px;
   background-repeat: no-repeat;
   padding: 15px 0 0 15px;
@@ -534,7 +534,7 @@
 }
 
 .event1 {
-  background: url("/assets/images/event1.jpg");
+  background: url("./assets/images/event1.jpg");
   background-size: cover;
   z-index: 2;
 }
@@ -552,7 +552,7 @@
 }
 
 .event2 {
-  background-image: url("/assets/images/event2.jpg");
+  background-image: url("./assets/images/event2.jpg");
   background-size: cover;
   z-index: 2;
 }
